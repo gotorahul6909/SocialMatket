@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Date: Sun, 02 May 2021 13:03:16 GMT
+Content-Type: image/png
+Content-Length: 10460
+Connection: keep-alive
+Cache-Control: max-age=604800
+Cf-Bgj: imgq:100,h2pri
+Cf-Polished: status=not_needed
+ETag: "603760ed-28dc"
+Expires: Tue, 04 May 2021 10:28:43 GMT
+Last-Modified: Thu, 25 Feb 2021 08:33:49 GMT
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+CF-Cache-Status: HIT
+Age: 441273
+Accept-Ranges: bytes
+cf-request-id: 09cec61f62000052a4b9233000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=fuVSD8iI2457aHzx9UP3Bg5n8DlHS4ZA4ROUVVuXoXcE9%2BCNQ5OIPIWQh9Aai%2BRwRf%2BzebXiYWoiTy17cLzx4uIMl%2FfMI9yrLAor6jktwAiAthVf8Smlrg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 649172df0eb85

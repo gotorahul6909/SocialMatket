@@ -1,0 +1,19 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page">
+    
+    @*<div class="sidebar">
+        <NavMenu />
+    </div>*@
+
+    <div class="main">
+        <TopNavBar></TopNavBar>
+        <RightSideBar></RightSideBar>
+        @Body
+        <div class="content px-4">
+
+        </div>
+        <Footer></Footer>
+        <div class="go-top"><i class='bx bx-up-arrow-alt'></i></div>
+    </div>
+</div>

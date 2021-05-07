@@ -1,0 +1,374 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket\\SocialMarket.csproj": {}
+  },
+  "projects": {
+    "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Entity\\SocialMarket.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Entity\\SocialMarket.Entity.csproj",
+        "projectName": "SocialMarket.Entity",
+        "projectPath": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Entity\\SocialMarket.Entity.csproj",
+        "packagesPath": "C:\\Users\\Mayank\\.nuget\\packages\\",
+        "outputPath": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mayank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Models\\SocialMarket.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Models\\SocialMarket.Models.csproj",
+        "projectName": "SocialMarket.Models",
+        "projectPath": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Models\\SocialMarket.Models.csproj",
+        "packagesPath": "C:\\Users\\Mayank\\.nuget\\packages\\",
+        "outputPath": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mayank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.ModuleService\\SocialMarket.ModuleService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.ModuleService\\SocialMarket.ModuleService.csproj",
+        "projectName": "SocialMarket.ModuleService",
+        "projectPath": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.ModuleService\\SocialMarket.ModuleService.csproj",
+        "packagesPath": "C:\\Users\\Mayank\\.nuget\\packages\\",
+        "outputPath": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.ModuleService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mayank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Models\\SocialMarket.Models.csproj": {
+                "projectPath": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Models\\SocialMarket.Models.csproj"
+              },
+              "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Repo\\SocialMarket.Repo.csproj": {
+                "projectPath": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Repo\\SocialMarket.Repo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Repo\\SocialMarket.Repo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Repo\\SocialMarket.Repo.csproj",
+        "projectName": "SocialMarket.Repo",
+        "projectPath": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Repo\\SocialMarket.Repo.csproj",
+        "packagesPath": "C:\\Users\\Mayank\\.nuget\\packages\\",
+        "outputPath": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Repo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mayank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Entity\\SocialMarket.Entity.csproj": {
+                "projectPath": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Entity\\SocialMarket.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket\\SocialMarket.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket\\SocialMarket.csproj",
+        "projectName": "SocialMarket",
+        "projectPath": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket\\SocialMarket.csproj",
+        "packagesPath": "C:\\Users\\Mayank\\.nuget\\packages\\",
+        "outputPath": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mayank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Entity\\SocialMarket.Entity.csproj": {
+                "projectPath": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Entity\\SocialMarket.Entity.csproj"
+              },
+              "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Models\\SocialMarket.Models.csproj": {
+                "projectPath": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Models\\SocialMarket.Models.csproj"
+              },
+              "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.ModuleService\\SocialMarket.ModuleService.csproj": {
+                "projectPath": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.ModuleService\\SocialMarket.ModuleService.csproj"
+              },
+              "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Repo\\SocialMarket.Repo.csproj": {
+                "projectPath": "E:\\Manu\\SocialMarket\\SocialMarket\\SocialMarket.Repo\\SocialMarket.Repo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+E:\Manu\SocialMarket\SocialMarket\SocialMarket.Entity\bin\Debug\net5.0\SocialMarket.Entity.deps.json
+E:\Manu\SocialMarket\SocialMarket\SocialMarket.Entity\bin\Debug\net5.0\SocialMarket.Entity.runtimeconfig.json
+E:\Manu\SocialMarket\SocialMarket\SocialMarket.Entity\bin\Debug\net5.0\SocialMarket.Entity.runtimeconfig.dev.json
+E:\Manu\SocialMarket\SocialMarket\SocialMarket.Entity\bin\Debug\net5.0\SocialMarket.Entity.dll
+E:\Manu\SocialMarket\SocialMarket\SocialMarket.Entity\bin\Debug\net5.0\ref\SocialMarket.Entity.dll
+E:\Manu\SocialMarket\SocialMarket\SocialMarket.Entity\bin\Debug\net5.0\SocialMarket.Entity.pdb
+E:\Manu\SocialMarket\SocialMarket\SocialMarket.Entity\obj\Debug\net5.0\SocialMarket.Entity.GeneratedMSBuildEditorConfig.editorconfig
+E:\Manu\SocialMarket\SocialMarket\SocialMarket.Entity\obj\Debug\net5.0\SocialMarket.Entity.AssemblyInfoInputs.cache
+E:\Manu\SocialMarket\SocialMarket\SocialMarket.Entity\obj\Debug\net5.0\SocialMarket.Entity.AssemblyInfo.cs
+E:\Manu\SocialMarket\SocialMarket\SocialMarket.Entity\obj\Debug\net5.0\SocialMarket.Entity.csproj.CoreCompileInputs.cache
+E:\Manu\SocialMarket\SocialMarket\SocialMarket.Entity\obj\Debug\net5.0\SocialMarket.Entity.dll
+E:\Manu\SocialMarket\SocialMarket\SocialMarket.Entity\obj\Debug\net5.0\ref\SocialMarket.Entity.dll
+E:\Manu\SocialMarket\SocialMarket\SocialMarket.Entity\obj\Debug\net5.0\SocialMarket.Entity.pdb
+E:\Manu\SocialMarket\SocialMarket\SocialMarket.Entity\obj\Debug\net5.0\SocialMarket.Entity.genruntimeconfig.cache
+E:\Manu\SocialMarket\SocialMarket\SocialMarket.Entity\obj\Debug\net5.0\SocialMarket.Entity.csprojAssemblyReference.cache

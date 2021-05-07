@@ -1,0 +1,32 @@
+﻿@page "/addprofile"
+@inherits AddProfileBase
+@*<div class="row">
+        <div class="text-center">
+            <h2 class="heading text-danger">Add Social Profiles</h2>
+            <p>Here you can add more social profiles. We are working hard to support more social platforms.</p>
+        </div>
+    </div>*@
+
+
+
+@if (AllSocial == null)
+{
+    <div class="spinner"></div>
+}
+else
+{
+    <EditForm>
+        <ul class="list-group">
+            @foreach (var item in AllSocial)
+            {
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    @item.Name
+                    &nbsp;
+                    <button type="submit" class="btn btn-warning" id="@(item.Name)" name="provider" value="@(item.Name)" title="@(item.Name)">@(item.Name)</button>
+                </li>
+            }
+        </ul>
+    </EditForm>
+}
+
+
