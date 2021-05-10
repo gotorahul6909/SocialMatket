@@ -90,6 +90,13 @@ using SocialMarket.Social.Pages;
 #line hidden
 #nullable disable
 #nullable restore
+#line 12 "E:\Manu\SocialMarket\SocialMarket\SocialMarket.Social\_Imports.razor"
+using SocialMarket.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "E:\Manu\SocialMarket\SocialMarket\SocialMarket.Social\Pages\FetchData.razor"
 using SocialMarket.Social.Data;
 

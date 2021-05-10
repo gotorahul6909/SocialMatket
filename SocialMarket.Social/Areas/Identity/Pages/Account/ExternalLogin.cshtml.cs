@@ -53,12 +53,16 @@ namespace SocialMarket.Social.Areas.Identity.Pages.Account
             public string Email { get; set; }
         }
 
-        public IActionResult OnGetAsync()
+        public IActionResult OnGetAsync(string provider, string returnUrl = null)
         {
-            return RedirectToPage("./Login");
+            //return RedirectToPage("./Login");
+            //return RedirectToAction("Asdf", new { provider = provider });
+            var redirectUrl = Url.Page("./ExternalLogin", pageHandler: "Callback", values: new { returnUrl });
+            var properties = _signInManager.ConfigureExternalAuthenticationProperties(provider, redirectUrl);
+            return new ChallengeResult(provider, properties);
         }
 
-        public IActionResult OnPost(string provider, string returnUrl = null)
+        public IActionResult OnPostAsync(string provider, string returnUrl = null)
         {
             // Request a redirect to the external login provider.
             var redirectUrl = Url.Page("./ExternalLogin", pageHandler: "Callback", values: new { returnUrl });

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Identity;
 using SocialMarket.Models;
 using SocialMarket.ModuleService;
 using System;
@@ -14,6 +15,14 @@ namespace SocialMarket.Social.Pages
         public ISocialProfileService SocialProfileService { get; set; }
 
         public List<SocialProfileModel> AllSocial { get; set; }
+        public SocialProfileModel SocialProfileModel { get; set; }
+
+        public SocialModel SocialModel { get; set; }
+
+        [Inject]
+        public SignInManager<IdentityUser> _signInManager { get; set; }
+        [Inject]
+        public NavigationManager NavigationManager { get; set; }
 
         protected async override Task OnInitializedAsync()
         {
@@ -23,6 +32,12 @@ namespace SocialMarket.Social.Pages
         private async Task AllSocialProfiles()
         {
             AllSocial = await this.SocialProfileService.GetAll();
+        }
+
+        protected void GetProvider(SocialProfileModel socialProfileModel)
+        {
+            //NavigationManager.NavigateTo($"/Identity/Account/ExternalLogin/OnGetData?provider={socialProfileModel.Name}", true);
+            NavigationManager.NavigateTo($"/SocialRedirect/SocialRedirects?provider={socialProfileModel.Name}", true);
         }
     }
 }

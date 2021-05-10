@@ -15,18 +15,20 @@
 }
 else
 {
-    <EditForm>
+    @*<form id="external-account" method="post" class="form-horizontal" action="/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback">*@
+        @*<EditForm Model="@SocialModel">*@
         <ul class="list-group">
             @foreach (var item in AllSocial)
             {
                 <li class="list-group-item d-flex justify-content-between align-items-center">
                     @item.Name
                     &nbsp;
-                    <button type="submit" class="btn btn-warning" id="@(item.Name)" name="provider" value="@(item.Name)" title="@(item.Name)">@(item.Name)</button>
+                    <button type="button" class="btn btn-warning" id="@(item.Name)" name="provider" value="@(item.Name)" title="@(item.Name)" @onclick="() => GetProvider(item)">@(item.Name)</button>
                 </li>
             }
         </ul>
-    </EditForm>
+        @*</EditForm>*@
+    @*</form>*@
 }
 
 

@@ -86,6 +86,13 @@ using SocialMarket.Social.Pages;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "E:\Manu\SocialMarket\SocialMarket\SocialMarket.Social\_Imports.razor"
+using SocialMarket.Models;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {

@@ -86,6 +86,13 @@ using SocialMarket.Social.Pages;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "E:\Manu\SocialMarket\SocialMarket\SocialMarket.Social\_Imports.razor"
+using SocialMarket.Models;
+
+#line default
+#line hidden
+#nullable disable
     public partial class SurveyPrompt : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
