@@ -36,8 +36,8 @@ namespace SocialMarket.Social.Pages
 
         protected void GetProvider(SocialProfileModel socialProfileModel)
         {
-            //NavigationManager.NavigateTo($"/Identity/Account/ExternalLogin/OnGetData?provider={socialProfileModel.Name}", true);
-            NavigationManager.NavigateTo($"/SocialRedirect/SocialRedirects?provider={socialProfileModel.Name}", true);
+            NavigationManager.NavigateTo($"/Identity/Account/ExternalLogin?provider={socialProfileModel.Name}", true);
+            //NavigationManager.NavigateTo($"/SocialRedirect/SocialRedirects?provider={socialProfileModel.Name}", true);
         }
     }
 }
