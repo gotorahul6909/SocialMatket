@@ -11,6 +11,7 @@ using SocialMarket.ModuleService;
 using SocialMarket.Repo;
 using SocialMarket.Repo.Interfaces;
 using SocialMarket.Social.Data;
+using SocialMarket.Social.FbService;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -47,6 +48,7 @@ namespace SocialMarket.Social
             });
             services.AddRazorPages();
             services.AddServerSideBlazor();
+            services.AddHttpClient<IFbAccessToken, FbAccessToken>();
             services.AddSingleton<WeatherForecastService>();
 
             services.AddTransient(typeof(IRepository<>), typeof(Repository<>));

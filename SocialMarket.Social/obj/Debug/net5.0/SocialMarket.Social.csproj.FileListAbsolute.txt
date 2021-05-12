@@ -240,3 +240,4 @@ E:\Manu\SocialMarket\SocialMarket\SocialMarket.Social\bin\Debug\net5.0\SocialMar
 E:\Manu\SocialMarket\SocialMarket\SocialMarket.Social\bin\Debug\net5.0\SocialMarket.Models.pdb
 E:\Manu\SocialMarket\SocialMarket\SocialMarket.Social\bin\Debug\net5.0\SocialMarket.Repo.pdb
 E:\Manu\SocialMarket\SocialMarket\SocialMarket.Social\obj\Debug\net5.0\Razor\Pages\SocialRedirect\SocialRedirects.cshtml.g.cs
+E:\Manu\SocialMarket\SocialMarket\SocialMarket.Social\bin\Debug\net5.0\Microsoft.AspNetCore.Blazor.HttpClient.dll
